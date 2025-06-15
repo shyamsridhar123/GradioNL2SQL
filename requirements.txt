@@ -1,0 +1,45 @@
+# Essential packages only
+sqlalchemy
+pyodbc
+azure-identity
+python-dotenv
+tenacity
+pandas
+openai
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+pytest-mock>=3.11.0
+factory-boy>=3.3.0
+
+# Code quality
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.5.0
+pre-commit>=3.3.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+
+# Jupyter for development and analysis
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+
+# Additional utilities
+python-multipart>=0.0.6
+email-validator>=2.0.0
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+
+# Jupyter for development
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Gradio for UI
+gradio>=4.0.0
+smolagents>=0.1.0
