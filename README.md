@@ -32,18 +32,18 @@
 
 ```mermaid
 graph TD
-    A[Natural Language Query] --> B[Cache Check <0.1s]
+    A[Natural Language Query] --> B[Cache Check]
     B -->|Hit| Z[Instant Response]
-    B -->|Miss| C[Fast Path 1-3s]
+    B -->|Miss| C[Fast Path]
     C -->|Simple Query| D[Pattern Matching]
-    C -->|Complex Query| E[Full Orchestration 5-15s]
+    C -->|Complex Query| E[Full Orchestration]
     E --> F[Intent Analysis]
     F --> G[Schema Analysis] 
     G --> H[Model Selection]
     H --> I[SQL Generation]
     I --> J[Execution]
     J -->|Success| Z
-    J -->|Failure| K[Airplane Mode <0.1s]
+    J -->|Failure| K[Failsafe Mode]
     K --> L[Template-based Response]
     L --> Z
 ```
