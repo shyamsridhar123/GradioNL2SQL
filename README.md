@@ -225,7 +225,7 @@ else:
     model = "gpt-4.1"  # Fast and efficient
 ```
 
-### **🛡️ Enterprise Reliability - Failsafe Mode**
+### **🛡️ Reliability - Failsafe Mode**
 
 ```python
 # Template-based fallback system for maximum reliability
