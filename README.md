@@ -193,19 +193,6 @@ Our intelligent orchestration system automatically categorizes queries and route
 | **Medium Analytics** | 3-6s | Moderate (40%+) | GPT-4.1 | 95%+ |
 | **Complex Analysis** | 5-15s | Lower (20%+) | O4-mini | 90%+ |
 
-### **Cost Optimization**
-
-**Traditional Single-Model Approach:**
-- All queries with O4-mini: ~$80/month (10K queries)
-
-**Our Intelligent Routing:**
-- Simple queries (80%): GPT-4.1 → ~$16/month  
-- Complex queries (20%): O4-mini → ~$16/month
-- **Total: ~$32/month**
-
-*Estimated 60% cost reduction through intelligent model selection*
-
----
 
 ## 🔧 **Advanced Features**
 
